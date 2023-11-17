@@ -1,0 +1,89 @@
+ /*Importing Font*/
+
+ @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,500&display=swap');
+
+  header h1 {
+    color: black;
+    font-size: 40px;
+    font-family: 'Exo 2', sans-serif;
+  }
+
+h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: left;
+  }
+  
+  h3 {
+    text-align: right;
+  }
+  .center {
+margin: auto;
+width: 20%;
+border: 3px solid #000000;
+padding: 10px;
+}
+a:link {
+color: red;
+}
+
+/* Visited Link */
+a:visited {
+color: rgb(70, 0, 128);
+}
+
+/* Mouse Hovering Link */
+a:hover {
+color: orange;
+}
+
+/* Selected Link */
+a:active {
+color: blue;
+}
+  
+h2 {
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 40px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+body{
+    background-color: blanchedalmond
+}
+
+/*Rounding Corners and Adding Borders to Images*/
+.Lamborghini{
+    border: 2px solid ;
+    border-radius: 15px;
+}
+
+.Audi{
+    border: 2px solid ;
+    border-radius: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #ffff}
+  
+::selection{
+    background-color: orange;
+}
+
+  /*Footer Modification*/
+  footer{
+    background-color: black ;
+    color: blanchedalmond;
+  }
