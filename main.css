@@ -87,3 +87,19 @@ table {
     background-color: black ;
     color: blanchedalmond;
   }
+
+  .even{
+    color: green;
+  }
+
+  .odd{
+    color: orange;
+  }
+
+  .Even{
+    color: orange;
+  }
+
+  .Odd{
+    color: green;
+  }
